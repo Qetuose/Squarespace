@@ -1,0 +1,135 @@
+/* --- LINK BUTTONS --- */
+
+/* --- Default link button --- */
+
+.btn,
+.btn:link,
+.btn:visited {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1.6rem 4.8rem;
+  border: none;
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  width: fit-content;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+}
+
+/* --- Link button styles --- */
+
+.btn--black-white {
+  color: #fff;
+  background: linear-gradient(to right, #fff 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.btn--black-white:hover {
+  background-position: left bottom;
+  color: #000;
+}
+
+.btn--white-black {
+  color: #000;
+  background: linear-gradient(to right, #000 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.btn--white-black:hover {
+  background-position: left bottom;
+  color: #fff;
+}
+
+.btn--brown-white {
+  color: #fff;
+  background: linear-gradient(to right, #fff 50%, #2e2827 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.btn--brown-white:hover {
+  background-position: right bottom;
+  background: linear-gradient(to left, #2e2827 50%, #fff 50%);
+  background-size: 200% 100%;
+  color: #2e2827;
+}
+
+.btn--lbrown-white {
+  color: #fff;
+  background: linear-gradient(to right, #fff 50%, #534936 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.btn--lbrown-white:hover {
+  background-position: right bottom;
+  background: linear-gradient(to left, #534936 50%, #fff 50%);
+  background-size: 200% 100%;
+  color: #2e2827;
+}
+
+.btn--purple-black {
+  color: #000;
+  background: linear-gradient(to right, #000 50%, #d0cce0 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+.btn--purple-black:hover {
+  background-position: right bottom;
+  background: linear-gradient(to left, #d0cce0 50%, #000 50%);
+  background-size: 200% 100%;
+  color: #fff;
+}
+
+/* ---Button border ---*/
+.btn--border:link,
+.btn--border:visited {
+  box-shadow: 0 0 0 1px #999;
+}
+
+.btn--border:hover,
+.btn--border:active {
+  box-shadow: none;
+}
+
+/* --- Bigger button styles ---*/
+
+.btn--md {
+    padding: 2.4rem 3.2rem !important;
+}
+
+
+/* --- Header btn --- */
+.header-btns {
+  display: flex;
+  gap: 2.4rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.header-btn:link,
+.header-btn:visited {
+  padding: 1.6rem 3.2rem;
+  letter-spacing: -0.8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: #fff;
+  transition: all 300ms;
+}
+
+.get-started:hover,
+.get-started:active {
+  opacity: 0.8;
+}
+
+.header-btn.get-started {
+  background-color: #fff;
+  color: #000;
+}
+
